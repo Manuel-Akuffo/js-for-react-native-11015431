@@ -27,7 +27,7 @@ function formatArrayStrings(strings, numbers) {
 
 const inputArray = [1, 2, 3, 4, 5];
 const processedNumbers = processArray(inputArray);
-const strings = ["hello", "world", "this", "is", "example"];
-const formattedStrings = formatArrayStrings(strings, processedNumbers);
+export const strings = ["hello", "world", "this", "is", "example"];
+export const formattedStrings = formatArrayStrings(strings, processedNumbers);
 
 console.log(formattedStrings); 
